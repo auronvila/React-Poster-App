@@ -15,8 +15,6 @@ function NewPost(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    setEnteredBody('')
-    setEnteredAuthor('')
     const dto = {
       body: enteredBody,
       author: enteredAuthor,
